@@ -5,7 +5,6 @@ from utils.pear import eat_pear
 
 logging.config.fileConfig('logging.ini')
 
-# Usa il logger in ogni modulo
 logger = logging.getLogger(__name__)
 
 if __name__ == '__main__':
